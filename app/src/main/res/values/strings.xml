@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NagwaAndroidTask</string>
+    <string name="home">Home</string>
+    <string name="download">Download</string>
+    <string name="please_wait">Please wait</string>
+    <string name="downloading">Downloading...</string>
+</resources>
