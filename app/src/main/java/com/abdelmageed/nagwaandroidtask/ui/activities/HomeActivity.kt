@@ -107,6 +107,7 @@ class HomeActivity : AppCompatActivity(), SelectedItems {
         progressLoading = ProgressLoading(this)
         binding.btnDownload.setOnClickListener {
             if (downloadedList.size > 0) {
+                Utils.addPermissions(this)
                 progressLoading.showLoading()
                 progressLoading.insertIndex(0, downloadedList.size)
                 for (item in downloadedList) {
